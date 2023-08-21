@@ -1,0 +1,14 @@
+Hello {{ health_worker.first_name }},
+
+You have a new appointment request from {{ patient.get_full_name }}.
+
+Appointment Details:
+Date and Time: {{ appointment.appointment_date }}
+Patient: {{ patient.get_full_name }}
+Contact Email: {{ patient.email }}
+
+You can do well to respond as soon as you can, as it maybe urgent.
+Thank you for using our appointment booking system.
+
+Best regards,
+Villa Team
